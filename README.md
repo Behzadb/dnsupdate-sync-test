@@ -6,7 +6,7 @@ Note that two powerdns authorative are synced using Bucardo in master-master mod
 
 ## Usage
 
-1. Create spped.test zone in authorative
+1. Create speed.test zone in authorative
 2. Allow nsupdate and Set TSIG keys for the zone
 3. Set TSIG key in key.conf
 4. Set authoratives and recursors address inside script
